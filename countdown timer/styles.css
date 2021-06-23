@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+}
+
+.cont {
+  margin: 0;
+  background-image: url('./timer.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: italic;
+  margin-top: 6rem;
+}
+
+.countdown_container {
+  display: flex;
+}
+
+.bigtext {
+  font-size: 6rem;
+  line-height: 1;
+  margin-top: 2rem;
+  margin: 2rem 2rem;
+}
+
+span {
+  position: relative;
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.days {
+  text-align: center;
+}
+
+@media screen and (max-width: 995px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .bigtext {
+    font-size: 4rem;
+  }
+}
